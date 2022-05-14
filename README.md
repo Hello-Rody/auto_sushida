@@ -31,7 +31,7 @@
 >```dir_path = "/home/<ユーザー名>/Desktop/"```
 ### sushidaフォルダのPlay.htmlをブラウザで開く。
 ### mouse_coordinate.pyを実行し、赤点と青点の座標をそれぞれメモする。
-### main.pyの12行目、pgui.screenshotの変数を次のようにする
+### main.pyの12行目、pgui.screenshotの引数を次のようにする
 ```sc = pgui.screenshot(region=(赤点のx座標,赤点のy座標,青点のx座標-赤点のx座標,青点のy座標-赤点のy座標))```
 >#### ex. 赤点(X:315,Y:500)、青点(X:640,Y:525)の場合
 >```sc = pgui.screenshot(region=(315,500,325,25))```
